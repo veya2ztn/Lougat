@@ -1,0 +1,26 @@
+{
+    "dataset_alias": "magloc.STEAD.base",
+    "cutout_start": -1,
+    "cutout_end": 25,
+    "pos_offset": [
+        42,
+        12
+    ],
+    "data_path": "datasets/STEAD",
+    "key": "Magnitude",
+    "min_upsample_magnitude": 4,
+    "magnitude_resampling": 1.5,
+    "translate": false,
+    "disable_station_foreshadowing": true,
+    "selection_skew": 1000,
+    "filter_single_station_by_pick": true,
+    "shuffle_train_dev": true,
+    "trigger_based": true,
+    "scale_metadata": false,
+    "custom_split": "test_2016",
+    "upsample_high_station_events": 10,
+    "source_normlized_ways":[["gauss",41.64405297,13.62382816],
+                             ["gauss",-119.87795825,37.81337465],
+                             ["minmax",-3.41, 50],
+                             ["minmax",-0.42,5]]
+}

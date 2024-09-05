@@ -1,0 +1,46 @@
+{
+    "_valid_processor_keys": [
+        "images",
+        "do_resize",
+        "size",
+        "resample",
+        "do_rescale",
+        "rescale_factor",
+        "do_normalize",
+        "image_mean",
+        "image_std",
+        "return_tensors",
+        "data_format",
+        "input_data_format",
+        "do_convert_rgb"
+    ],
+    "do_convert_rgb": null,
+    "do_normalize": true,
+    "do_rescale": true,
+    "do_resize": true,
+    "do_center_crop": false,
+    "do_crop_margin": false,
+    "do_pad": false,
+    "image_processor_type": "CLIPImageProcessor",
+    "image_seq_length": 577,
+    "image_mean": [
+        0.485,
+        0.456,
+        0.406
+    ],
+    "image_std": [
+        0.229,
+        0.224,
+        0.225
+    ],
+    "processor_class": "Florence2Processor",
+    "resample": 3,
+    "size": {
+        "height": 1024,
+        "width": 1024
+    },
+    "crop_size": {
+        "height": 1024,
+        "width": 1024
+    }
+}

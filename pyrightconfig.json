@@ -1,0 +1,25 @@
+{
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        "datasets",
+        "wandb",
+        "debug",
+        "log",
+        "checkpoints",
+        "**/.ipynb_checkpoints",
+        ".vscode",
+        "backup",
+        "Notebook",
+        "config",
+        "data",
+        "FastChat-old",
+        "lock",
+        "notebook",
+        "output",
+        "pretrain_weights",
+        "qd_uniem",
+        "script",
+        "art"
+    ]
+}

@@ -1,0 +1,3 @@
+pip install pymupdf nltk Levenshtein opencv-python albumentations orjson accelerate transformers==4.42.1 numpy pillow requests pandas wandb simple-parsing matplotlib einops h5py
+pip install timm==0.5.4 --no-deps 
+pip install nougat-ocr
