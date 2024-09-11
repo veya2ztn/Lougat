@@ -18,9 +18,28 @@ The key idea is nature continues of this paper [LOCR: Location-Guided Transforme
 
 The dataset is the [UltexB](https://huggingface.co/datasets/LLM4SCIENCE/uparxive_boxed_pdf/tree/main) dataset from [Uparxive](https://github.com/veya2ztn/uparxive/blob/release/documents/the_uparxive_text_level_boxed_dataset.md)
 
+## Model
+
+download weight from huggingface 
+
+- Flougat
+  ```
+  huggingface-cli download --resume-download --local-dir-use-symlinks False https://huggingface.co/LLM4SCIENCE/flougat_iter1000 --local-dir ckpts/flougat_iter1000 
+
+  ```
+- Locr
+  ```
+  huggingface-cli download --resume-download --local-dir-use-symlinks False https://huggingface.co/LLM4SCIENCE/locr_alpha --local-dir ckpts/locr_alpha
+  ```
+
 ### Inference
 
-The model is huggingface compatible. You can 
+The model is huggingface compatible. You can see `test_prediction.py`
+
+```
+MODELWEIGHT="ckpts/locr_alpha"
+python test_prediction.py ckpts/locr_alpha
+```
 
 ### Train
 
